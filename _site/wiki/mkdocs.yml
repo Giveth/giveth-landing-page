@@ -1,0 +1,16 @@
+site_name: Giveth Wiki
+site_url: http://learn.giveth.io
+repo_url: https://github.com/Giveth/giveth-landing-page/
+docs_dir: wiki
+
+extra_css:
+    - css/extra.css
+
+pages:
+    - Wikihome: index.md
+    - FAQ: faq.md
+    - Glossary: glossary.md
+    - Technical Documentation: dev.md
+    - Roadmap: roadmap.md
+    - About: about.md
+theme: readthedocs

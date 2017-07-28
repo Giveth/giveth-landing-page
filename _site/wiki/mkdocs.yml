@@ -1,6 +1,7 @@
 site_name: Giveth Wiki
 site_url: http://learn.giveth.io
-repo_url: https://github.com/Giveth/giveth-landing-page/tree/master/wiki/
+repo_url: https://github.com/Giveth/giveth-landing-page/
+edit_uri: /edit/master/wiki/wiki/
 docs_dir: wiki
 
 extra_css:

@@ -4,10 +4,10 @@
     <title>Giveth</title>
     <description>Saving the world one milestone at a time
 </description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 28 Jul 2017 18:50:27 +0200</pubDate>
-    <lastBuildDate>Fri, 28 Jul 2017 18:50:27 +0200</lastBuildDate>
+    <link>http://giveth.io/</link>
+    <atom:link href="http://giveth.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 28 Jul 2017 19:06:31 +0200</pubDate>
+    <lastBuildDate>Fri, 28 Jul 2017 19:06:31 +0200</lastBuildDate>
     <generator>Jekyll v3.4.5</generator>
     
   </channel>

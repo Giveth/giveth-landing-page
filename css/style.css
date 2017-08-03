@@ -1,9 +1,0 @@
----
----
-
-@import "{{ spectral_jekyll_theme }}";
-
-p {
-color: red;
-  text-align: justify;
-}

@@ -1,6 +1,8 @@
-@import "";
+@media only screen and (max-width: 960px) { #one { display: none; } }
+@media only screen and (min-width: 960px) { #one_mobile { display: none; } }
+@media only screen and (min-width: 480px) { #banner h2 { font-size: 3em; } }
+#one #one_mobile #two #four { text-align: justify; }
 
-p {
-color: red;
-  text-align: justify;
-}
+.center { text-align: center; }
+
+.justify { text-align: justify; }

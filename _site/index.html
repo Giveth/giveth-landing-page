@@ -11,11 +11,12 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Giveth</title>
-  <meta name="description" content="Saving the world one milestone at a time
+  <meta name="description" content="Charitable giving on the blockchain
 ">
   <!--[if lte IE 8]><script src="/js/ie/html5shiv.js"></script><![endif]-->
   <link rel="canonical" href="http://giveth.io/">
   <link rel="stylesheet" href="/css/main.css" />
+  <link rel="stylesheet" href="/css/style.css" />
   <!--[if lte IE 8]><link rel="stylesheet" href="/css/ie8.css" /><![endif]-->
   <!--[if lte IE 9]><link rel="stylesheet" href="/css/ie9.css" /><![endif]-->
   <link rel="alternate" type="application/rss+xml" title="Giveth" href="http://giveth.io/feed.xml">
@@ -48,11 +49,24 @@
 </header>
 
 
-      				<!-- Banner -->
+      <!-- Landing website maintained by @geleeroyale
+Contributions are actively encouraged!
+Please let's have a culture of attribution, especially with pictures.
+
+The way I do it:
+
+1 - Use title attribute to display CC info on mouse_hover, example:
+		title= "Bridges Not Walls/Credit: Colin Hattersley/Flickr/CC BY-SA 2.0"
+
+2 - Link to original image with attribute target="blank", full example:
+ 		<a href="https://flic.kr/p/Rd94j6" target="blank"><img src="images/pic01.jpg" alt="Bridges not Walls" title= "Bridges Not Walls/Credit: Colin Hattersley/Flickr/CC BY-SA 2.0"/></a>
+-->
+
+				<!-- Banner -->
 					<section id="banner">
 						<div class="inner">
 							<h2>Giveth</h2>
-							<p><p>Saving the world one milestone at a time</p>
+							<p><p>Charitable giving on the blockchain</p>
 </p>
 							<ul class="actions">
 								<li><a href="http://slack.giveth.io/" class="button special">Join</a></li>
@@ -104,15 +118,15 @@
 					<section id="one" class="wrapper style4 special">
 						<div class="inner">
 							<header class="major">
-								<h2>Charitable donations on the Blockchain</h2>
-								<p>Giveth is an open source platform that will enable people to build communities around causes.
-									Our Dapp will connect donors directly to the people they want to support that are making the change they want to see in the world.
-								</p>
+								<h2>Transparent donation flow with Ethereum</h2>
 								<p>
-									Campaigns raising funds with Giveth can be trusted because of a mix of blockchain based transparency and social accountability
-								</p>
-								<p>The Ethereum blockchain charitable organizations can be created with transparent accounting, <br />
-								so you can donate to your favorite cause & know EXACTLY where your donation went & what it accomplished.</p>
+									Giveth is an open source platform that will enable people to build communities around causes.
+									Our Dapp will directly connect <span style="color: #00acc1">Givers</span> to <span style="color: #add681 ">Makers</span>.</p>
+								<p>
+									Campaigns raising funds with Giveth can be trusted because of a mix of blockchain based transparency and social accountability</p>
+								<p>
+									The Ethereum blockchain charitable organizations can be created with transparent accounting,
+									so you can donate to your favorite cause, know EXACTLY where your donation went and most important: <em>what it accomplished!</em></p>
 							</header>
 							<ul class="icons major">
 								<li><img class="ethereum-icon" src="./images/powered_by_ethereum.png" /></li>
@@ -122,22 +136,44 @@
 						</div>
 					</section>
 
+					<!-- ADDED by @geleeroyale - To switch style4 with style2 for section one-->
+						<section id="one_mobile" class="wrapper style2 special">
+							<div class="inner">
+								<header class="major">
+									<h2>Transparent donation flow with Ethereum</h2>
+									<p>Giveth is an open source platform that will enable people to build communities around causes.
+										Our Dapp (decentralized application) will connect those with the means to give directly to those fighting for a cause.
+									</p>
+									<p>
+										Campaigns raising funds with Giveth can be trusted because of a mix of blockchain based transparency and social accountability
+									</p>
+									<p>The Ethereum blockchain charitable organizations can be created with transparent accounting,
+									so you can donate to your favorite cause, know EXACTLY where your donation went and most important: <em>what it accomplished!</em></p>
+								</header>
+								<ul class="icons major">
+									<li><img class="ethereum-icon" src="./images/powered_by_ethereum.png" /></li>
+									<!-- <li><span class="icon fa-heart-o major style2"><span class="label">Ipsum</span></span></li>
+									<li><span class="icon fa-code major style3"><span class="label">Dolor</span></span></li> -->
+								</ul>
+							</div>
+						</section>
+
 				<!-- Two -->
 					<section id="two" class="wrapper alt style2">
 						<section class="spotlight">
-							<div class="image"><img src="images/pic01.jpg" alt="" /></div><div class="content">
-								<h2>Saving the World Together</h2>
-								<p>
-									The Giveth system enables accountability on chain & off!
-									Every person that touches your donation has an open line of communication where you two can connect. The goal is to build a community around a cause; so non-monetary resources can be shares as well.
+							<div class="image"><a href="https://flic.kr/p/peRjCi" target="blank"><img src="images/pic02.jpg" alt="network" title= "network: Rosmarie Voegtli/Flickr/CC BY 2.0"/></a></div><div class="content">
+								<h2>Create Charitable Communities</h2>
+								<p style="text-align: justify">
+									The Giveth system facilitates accountability via smart-contracts on the blockchain and with the help of arbitrators off-chain! Every person that touches your donation has an open line of communication where you two can connect. The goal is to build a community around a cause - so non-monetary resources (goods, time, effort, ...) can be shared as well.
 								</p>
 							</div>
 						</section>
 						<section class="spotlight">
-							<div class="image"><img src="images/pic02.jpg" alt="" /></div><div class="content">
-								<h2>Rewarding Good People's Good Deeds</h2>
-								<p>
-									The Giveth smart contracts reduce the trust required to support your favorite cause. Instead of donating & hoping it produces outcomes, the donation can be locked into milestones, released to the charity for results, incentivizing them to continue the good work.
+							<div class="image"><img src="images/pic03.jpg" alt="Pseudonymous Heroes" title= "Psydonymous Heroes/Credit: KY/PD"/></div>
+							<div class="content">
+								<h2>Reward Good People's Deeds</h2>
+								<p style="text-align: justify">
+									Our smart contracts aim to establish a trustless system. You support your favorite cause and know the details about where your money is being used - the system tracks everything. Instead of donating and <em>hoping it produces a desirable outcome</em>, the donation can be locked into a descriptive milestone that is released to the charity only for proof of results, incentivizing them be responsible and economical.
 								</p>
 							</div>
 						</section>
@@ -147,16 +183,22 @@
 					<section id="three" class="wrapper style3 special">
 						<div class="inner">
 							<header class="major">
-								<h2>Permissionless Innovation</h2>
-								<p>
-									We are completely opensource. All of our software we consider a gift to the Ethereum community. We invite anyone to contribute & innovate on our platform.
-									Developers can use our base system as a launching pad to test their for-profit ideas. Imagine starting a decentralized charity to build an orphanage while testing an experimental governance system for allocating donations. Live smart contract testing while making the world a better place.
-								</p>
+									<h2>Transparent Innovation</h2>
+									<p>
+										We strongly believe in open source culture. All of our software is considered a gift to the Ethereum community.
+										<br>
+										Developers can use our base system as a launching pad to test their for-profit ideas. Imagine starting a decentralized charity to build an orphanage while testing an experimental governance system for allocating donations. Live smart contract testing while making the world a better place.
+									<p class="center">
+										<b>Contribute to development:</b>
+									</p>
+								<ul class="actions">
+									<li><a href="http://github.com/Giveth/" class="button special">Giveth on Github</a></li>
+								</ul>
 							</header>
 							<ul class="features">
 								<li class="icon fa-smile-o">
 									<h3><a href="https://medium.com/giveth/the-minime-token-open-sourced-by-giveth-2710c0210787">MiniMe</a></h3>
-									<p>
+									<p class="justify">
 										The MiniMe token makes it trivial for ANYONE to upgrade a Dapp/DAO midstream to include
 										new features in a decentralized fashion, without having to migrate to a new token
 										contract and without having to ask for permission.  <a href="https://medium.com/giveth/the-minime-token-open-sourced-by-giveth-2710c0210787">Learn more.</a>
@@ -164,21 +206,21 @@
 								</li>
 								<li class="icon fa-lock">
 									<h3><a href="https://medium.com/giveth/the-vault-contract-open-sourced-by-giveth-fe2261f7b91b">Vault</a></h3>
-									<p>
-										The Vault Contract is designed to hold ether & safely automate payments in a Dapp/DAO environment. It allows for a step-by-step decentralization process as trust in the code base is built over time.<a href="https://medium.com/giveth/the-vault-contract-open-sourced-by-giveth-fe2261f7b91b">Learn more.</a>
+									<p class="justify">
+										The Vault Contract is designed to hold ether and safely automate payments in a Dapp/DAO environment. It allows for a step-by-step decentralization process as trust in the code base is built over time.<a href="https://medium.com/giveth/the-vault-contract-open-sourced-by-giveth-fe2261f7b91b">Learn more.</a>
 									</p>
 								</li>
 								<li class="icon fa-heart-o">
 									<h3>Delegated Governance</h3>
-									<p>
+									<p class="justify">
 										One of the core contracts we are working on enables a donor to delegate authority over their donations in a
 										simple gas efficient way, following the principles of liquid democracy.
 									</p>
 								</li>
 								<li class="icon fa-code">
 									<h3>Milestone Payouts</h3>
-									<p>
-										ICO's have gotten out of control.  Our milestone contracts once fully
+									<p class="justify">
+										ICO's at the moment leave much to be desired. Our milestone contracts once fully
 										tested will be able to keep charitable organizations and for-profit ICO's
 										accountable to their supporters.
 									</p>
@@ -250,7 +292,7 @@
     
     2017
     Giveth</li>
-    <li>Don't: <a href="html/multisig_compare.htm" target="_blank">Multisig Compare</a></li>
+    <!-- <li>Don't: <a href="html/multisig_compare.htm" target="_blank">Multisig Compare</a></li> -->
     <li>Design: <a href="http://html5up.net" target="_blank">HTML5 UP</a></li>
     <li>Built with: <a href="http://jekyllrb.com" target="_blank">Jekyll</a></li>
   </ul>

@@ -6,8 +6,9 @@
 </description>
     <link>http://giveth.io/</link>
     <atom:link href="http://giveth.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 04 Aug 2017 02:26:46 +0200</pubDate>
-    <lastBuildDate>Fri, 04 Aug 2017 02:26:46 +0200</lastBuildDate>
+    <pubDate>Fri, 04 Aug 2017 14:45:18 +0200</pubDate>
+    <lastBuildDate>Fri, 04 Aug 2017 14:45:18 +0200</lastBuildDate>
     <generator>Jekyll v3.4.5</generator>
+    
   </channel>
 </rss>

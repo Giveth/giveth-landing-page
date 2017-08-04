@@ -16,7 +16,7 @@
 @media only screen and (min-width: 480px){
     #banner h2 {
       font-size: 3em;
-}
+      }
 }
 
 #one #one_mobile #two #four {
@@ -29,4 +29,13 @@
 
 .justify {
   text-align: justify;
+}
+
+body {
+      font-family: "Quicksand", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+      font-family: 'Exo', sans-serif;
+      font-weight: 400;
 }

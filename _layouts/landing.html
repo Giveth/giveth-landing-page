@@ -23,7 +23,10 @@
       {% include scripts.html %}
 
     </div>
-
+<!--ADDED by geleeroyale: Google Analytics-->
+        {% if jekyll.environment == 'production' %}
+        {% include analytics.html %}
+        {% endif %}
   </body>
 
 </html>

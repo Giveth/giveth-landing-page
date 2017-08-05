@@ -11,7 +11,6 @@ email: hi@giveth.io
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://giveth.io" # the base hostname & protocol for your site
 theme: spectral_jekyll_theme
-google_analytics: UA-103956937-1
 social:
   slack: http://slack.giveth.io
   twitter: https://twitter.com/givethio

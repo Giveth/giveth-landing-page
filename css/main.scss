@@ -54,7 +54,7 @@ $baseurl: '{{ site.baseurl }}/images';
 	body, input, select, textarea {
 		color: _palette(fg);
 		font-family: _font(family);
-		font-size: 15pt;
+		font-size: 18pt;
 		font-weight: _font(weight);
 		letter-spacing: _size(letter-spacing);
 		line-height: 1.65em;
@@ -1267,6 +1267,14 @@ $baseurl: '{{ site.baseurl }}/images';
 			@include wrapper(accent7);
 		}
 
+		&.style6 {
+			@include wrapper(accent8);
+		}
+
+		&.style7 {
+			@include wrapper(accent9);
+		}
+
 		@include breakpoint(medium) {
 			@include padding(4em, 3em);
 		}
@@ -1301,7 +1309,7 @@ $baseurl: '{{ site.baseurl }}/images';
 		@include vendor('transform', 'translateX(20em)');
 		@include vendor('transition', 'transform #{_duration(menu)} ease');
 		-webkit-overflow-scrolling: touch;
-		background: _palette(accent1, bg);
+		background: _palette(bg);
 		color: _palette(accent1, fg-bold);
 		height: 100%;
 		max-width: 80%;

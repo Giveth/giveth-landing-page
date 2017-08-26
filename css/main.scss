@@ -1816,12 +1816,16 @@ $baseurl: '{{ site.baseurl }}/images';
 
 	body.landing {
 		#page-wrapper {
-			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("#{$baseurl}/banner.jpg")'));
+			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.2))', 'url("#{$baseurl}/banner.jpg")'));
 			background-attachment: fixed;
 			background-position: center center;
 			background-repeat: no-repeat;
 			background-size: cover;
 			padding-top: 0;
+		}
+
+		#cta {
+			background-color: darken(transparentize(_palette(fg-light), 1), 8);
 		}
 
 		#footer {
@@ -1837,14 +1841,18 @@ $baseurl: '{{ site.baseurl }}/images';
 
 			#banner,
 			.wrapper.style4 {
-				@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("#{$baseurl}/banner.jpg")'));
+				@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.2))', 'url("#{$baseurl}/banner.jpg")'));
 				background-position: center center;
 				background-repeat: no-repeat;
 				background-size: cover;
 			}
 
-			#footer {
+			#footer	{
 				background-color: darken(_palette(bg), 8);
 			}
+
+			#cta {
+			 background-color: darken(_palette(fg-light), 8);
+		 }
 		}
 	}

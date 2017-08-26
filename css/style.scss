@@ -23,6 +23,10 @@
   text-align: justify;
 }
 
+.green-background {
+    background-color: _palette(accent1, bg);
+}
+
 .center {
   text-align: center;
 }
@@ -31,11 +35,19 @@
   text-align: justify;
 }
 
+// Quicksand is used as the main type family
 body {
       font-family: "Quicksand", sans-serif;
+      font-weight: 400;
 }
 
-h1, h2, h3, h4, h5, h6 {
+// Exo is used as Logofont only
+h1, h2, {
+      font-family: "Exo", sans-serif;
+      font-weight: 600;
+}
+
+h3, h4, h5, h6, .h2-nova {
       font-family: 'Proxima Nova Semibold', sans-serif;
       font-weight: 800;
 }
@@ -49,4 +61,8 @@ nav {
 .gitbutton {
   color: _palette(fg-light);
   background-color: #5ddef4;
+}
+
+.color-blue {
+  color: #00acc1;
 }

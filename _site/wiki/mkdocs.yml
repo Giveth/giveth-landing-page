@@ -9,6 +9,7 @@ extra_css:
 
 pages:
     - Wikihome: index.md
+    - DOCs: docs.md
     - FAQ: faq.md
     - Glossary: glossary.md
     - Technical Documentation: dev.md
